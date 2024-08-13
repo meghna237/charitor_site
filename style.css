@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(240, 219, 233);
+    color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    background-color: rgb(210, 30, 177);
+    padding: 20px;
+}
+nav {
+    padding-top: 20px;
+    text-align: right;
+
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li {
+    display: inline;
+    padding-right: 30px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+nav ul li a:hover{
+    background-color: rgb(247, 151, 167);
+    padding: 10px;
+    margin: -10px;
+    border-radius: 10px;
+
+}
+#banner {
+    background-image: linear-gradient(
+        rgb(210, 30, 177, 0.08),
+        rgb(247, 151, 167, 0.4)
+    ), url('images/image1.jpeg');
+    background-size: cover;
+    background-position: center;
+    padding: 300px;
+    text-align: center;
+}
+#banner h1{
+    font-size: 50px;;
+}
+footer{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;;
+    width: 100%;
+    background-color: rgb(227, 110, 206);
+    color: white;
+}
+.button {
+    background-color: rgb(246, 193, 237);
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    border-color: rgb(233, 138, 192);
+}
+.cla {
+    text-decoration: none;
+    padding: 7px 25px;
+    background-color: rgb(210, 30, 177);
+    color: black;
+    border-radius: 50px;
+    border: 1px solid black;
+    color: white;
+}
+#causes {
+    background-color: rgb(236, 171, 225);
+    text-align: center;
+    height: 700px;
+}
+#causes h1{
+    width:100%;
+    padding: 30px;
+    padding-bottom: 50px;
+    font-size: 50px;
+}
+#causes img{
+    width: 270px;
+    height: 200px;
+}
+#causes h3{
+    padding: 10px;;
+}
+.cause {
+    display: inline-block;
+    background-color: whitesmoke;
+    width: 350px;
+    height: 430px;
+    padding: 1rem;
+    margin: 0.3rem;
+    text-align: center;
+    vertical-align: top;
+}
+#about {
+    height: 700px;
+}
+#contact {
+    background-color: rgb(236, 171, 225);
+    height: 700px;
+    align-content: center;
+    text-align: center;
+}
+.isize {
+    width: 250px;
+    margin: 10px;
+    padding: 3px;
+}
+.submit {
+    margin-top: 40px;
+}

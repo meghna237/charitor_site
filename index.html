@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charitor</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" type="text/javascript"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#causes">Causes</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="banner">
+        <h1>Support the cause you care about</h1><br>
+        <p>One small act of kindness can mean a lot to someone</p><br><br>
+        <a href="#causes" class="cla">Causes</a>
+    </section>
+    <section id="causes">
+        <h1>Our Causes</h1>
+        <div class="cause">
+            <img src="images/image2.jpeg"><br>
+            <h3>Provide Education to Underpriviledged Children</h3>
+            <p>The money collected will be used to build schools, hire teachers, buy books, stationary items, and other needed things for providing quality educaition to underpriviledged children</p>
+            <br><a href="#" class="cla">Donate</a>
+        </div>
+        <div class="cause">
+            <img src="images/image3.jpeg"><br>
+            <h3>Cleaning the Environment</h3>
+            <p>The money collected will be used to buy supplies needed to clean the environment, fund the recycling of recyclale wastes, buying and maintaining waste bins, ans so on</p>
+            <br><a href="#" class="cla">Donate</a>
+        </div>
+        <div class="cause">
+            <img src="images/image4.jpeg"><br>
+            <h3>Supporting the Elderly</h3>
+            <p>The money collected will be used to buy food, clothes, medicines and other needed items, as well as fund doctors visits, for the elderly who have no to care for them</p> 
+            <br><a href="#" class="cla">Donate</a>
+        </div>
+    </section>
+    <section id="about">
+        <h1>About Us</h1>
+        <p></p>
+    </section>
+    <section id="contact">
+        <h1>Contact Us</h1>
+        <form onsubmit="return validate()">
+            <label for="name">Name:</label>
+            <input class="isize" type="text" id="name" name="name" placeholder="Your Name"><br>
+            <label for="email">Email:</label>
+            <input class="isize" type="email" id="email" name="email" placeholder="Your email id"><br>
+            <label for="subject">Subject:</label>
+            <input class="isize" type="text" id="subject" name="subject" placeholder="Enter the subject"><br>
+            <label for="message">Message:</label>
+            <textarea class="isize" id="message" name="message" placeholder="What do you want to tell us" rows="8"></textarea><br>
+            <div id="msg"></div>
+            <input type="submit" value="Submit" class="cla submit">
+        </form>
+    </section>
+    <footer>
+        <p>2025 Developed by Company. All rights reserved.</p>
+    </footer>
+</body>
+</html>
